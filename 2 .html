@@ -1,0 +1,128 @@
+[<!DOCTYPE html>
+<html>
+<head>
+<title>My first website</title>
+
+<meta charset="UTF-8">
+<meta name="description" content="HTML practise">
+<meta name="keywords" content="HTML, tutorial, beginner">
+<meta name="BloodStone" content="My King">
+<meta http-equiv="refresh" content="30">
+</head>
+<body style="background-color:lavenderblush
+">
+<!--this is the best website ever-->
+
+<h1 style="color: red;">Wellcome</h1>       
+<h1 style="color:rgb(146, 231, 219 )">Wellcome</h1>
+<h1 style="color:#cce6ff">Wellcome</h1>
+<br>
+<h2>Hello friend</h2>
+<hr>
+<p style="background-color:rgb(232, 146, 226); color: #cce6ff;">This is a paragraph.
+This is Testing for HTML
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ex asperiores nisi dolorem at, alias consequatur voluptate ea beatae nihil corporis soluta quis inventore assumenda fugit magnam aspernatur, in placeat.
+</p>
+
+<!-- span= adds maekup to text or portion of a document-->
+<!-- div= defines a division of a document-->
+<div style="background-color: #ff8c66">
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia, odit sunt! Nihil quasi, ullam rerum, voluptatum quidem laudantium maiores excepturi perferendis corporis consequuntur vitae quia at nobis! Soluta, labore reiciendis!</p>
+
+<p><span style="color:rgb(26, 255, 144)">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</span> Corporis adipisci vel non neque dolor iure alias, quos atque odit aut cum nemo magni fugit excepturi architecto laboriosam porro, molestiae odio?</p>
+</div>
+<a href="https://www.google.com" target="_blank" title="This take you to google"> 
+    Googie
+</a>
+<hr>
+<a href="index.html" target="_self" title="this is page 2">Let's go to page 2</a>
+<!--HTML text formatting tags-->
+<br>
+<p>This is normal text</p>
+<p>This is <b>bold</b> text</p>
+<p>This is <i>italic</i> text</p>
+<p>This is <big>big</big> text</p>
+<p>This is <small>small</small> text</p>
+<p>This is <sub>subscript</sub> text</p>
+<p>This is <sup>superscript</sup> text</p>
+<p>This is <ins>inserted</ins> text</p>
+<p>This is <del>deleted</del> text</p>
+<p>This is <mark>marked</mark>text</p>
+<p>This is <big><mark>BIG MARKS</mark></big>> text</p>
+<p>This is<del><sup>DEL SUP</sup></del> text</p>
+
+<h4>Unorder list</h4>
+
+<ul>
+<li>pizza dough</li>
+<li>tomato sauce</li>
+<li>cheese</li>
+<li>topping
+    <ul>
+        <li>pepperoni</li>
+        <li>mushroom</li>
+        <li>peppers</li>
+    </ul>
+</li>
+<li>drink</li>
+</ul>
+
+<h4>Ordered listed</h4>
+<ol type="A">
+    <li>eat breakfast</li>
+    <li>take shower</li>
+    <li>leave for work</li>
+</ol>
+
+<h4>Description listed</h4>
+<dl>
+<dt>HTML</dt>
+<dd>This adds structure to web page</dd>
+<dt>CSS</dt>
+<dd>This adds style to wed page</dd>
+<dl>JavaScript</dl>
+<dd>This adds functionality to web page</dd>
+</dl>
+<h3>Store Hour</h3>
+<table bgcolor="black" width="700">
+    <tr bgcolor="grey">
+        <th width="100">Sunday</th>
+        <th width="100">Monday</th>
+        <th width="100">Tuesday</th>
+        <th width="100">Wednesday</th>
+        <th width="100">Thursday</th>
+        <th width="100">Friday</th>
+        <th width="100">Saturaday</th>
+    
+    </tr>
+     <tr bgcolor="lightgrey" align="center">
+         <td>Closed</td>
+         <td>9-5</td>
+         <td>9-5</td>
+         <td>9-5</td> 
+         <td>9-5</td>
+         <td>9-5</td>
+         <td>Closed</td>
+        
+    </tr>
+</table>
+<hr>
+<!-- iframe =embed content from another source into an HTML document ex. used for ads, used in many hacking techniques-->
+
+<iframe style="border:0" src="ads.html" width="700" height="100"></iframe>
+<br>
+<a href="http://www.google.com">
+<br>
+<button style="background-color: darkgray;color: #ff8c66;border-radius: 5px;">Click Me</button>
+</a>
+
+<hr>
+   <button onclick="doSomething()" style="background-color: aliceblue;color: aquamarine;border-radius: 5px;"><big>Click Me</big></button>
+    <p id="text">Hello</p>
+    <script>
+         function doSomething(){
+            document.getElementById("text").innerHTML="Goodbye";
+         }
+    </script>
+</body>
+</html>

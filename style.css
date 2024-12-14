@@ -1,0 +1,298 @@
+.fa-twitter{
+    color: aqua;
+}
+
+.fa-youtube{
+    color: darkolivegreen;
+}
+
+body{
+  background-image: url(images/dracule_mihawk___one_piece_by_caiquenadal_dfdp8kz-fullview.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+  background-size: cover;
+
+  
+}
+#h2{
+    background: linear-gradient(to right,crimson, lightyellow);
+    font-family: "Jacquard 12 Charted" "consolas" , sans-serif;
+    border-top-style: dotted;
+    border-bottom-style: dotted;
+    border-left-style: double;
+    border-left-width: 18px;
+    border-left-color: silver;
+    border-right-style: double;
+    border-right-width: 18px;
+    border-right-color: silver;
+}
+
+/* +=right  -=left
+   +=below  -=up
+   for spread higher =further
+
+     text-shadow: 5px 5px 5px darkgray;
+     you can also add box shadow with text shadow
+*/
+
+#h1{
+    text-shadow: 0px 0px 5px darkgray, 0px -5px 5px red;
+}
+
+#h1:hover{
+    box-shadow:5px 5px 5px black;
+}
+img{
+    float: left;
+}
+.box{
+
+    clear: left;
+    width: 100px;
+    height:100px;
+    border: 1px solid;
+    font-size: 40px;
+    text-align: center;
+    background: tomato;
+
+    float: right;
+}
+
+p{
+    clear: both;
+}
+#a{
+    background-color: rgb(23, 39, 70); color: cornsilk;
+    font-family: "consola s" , sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: gray dotted underline;
+    font-size: 18px;
+}
+.odd{
+    color: crimson;
+    border-style: inset;
+    border-width: 5px;
+    border-color: gold;
+    border-radius: 10px;
+    padding: 5px;
+}
+.even{
+    color: cornsilk;
+}
+#b{
+    background: linear-gradient(to right, rgb(103, 117, 194),crimson);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+ 
+}
+
+a:link{
+    color: lawngreen;
+}
+
+a:visited{
+    color: darkslateblue;
+}
+
+a:hover{
+    color: tomato;
+}
+
+a:active{
+   background-color: brown;
+}
+
+button:hover{
+   background-color: crimson;
+}
+
+button:active{
+    color: darkgrey;
+}
+
+li:nth-child(5n+4){
+    color: powderblue;
+}
+
+/* li:nth-child(1){
+    background-color: yellow
+}
+
+li:nth-child(even){
+    background-color: skyblue;
+}
+
+li:nth-child(.odd){
+    background-color: powderblue;
+}
+
+ */
+
+/* 
+
+ #box3{
+    border: 1px solid;
+    width: 300px;
+    height: 300px;
+    background-color: darkgray;
+
+    position: sticky;
+    top: 0px;
+    bottom: 0px;
+
+ }
+
+ #box4{
+    border: 1px solid;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(198, 32, 32);
+
+    position: absolute;
+    top: 100px;
+    left: 100px;
+ }
+hide for a while
+
+*/
+
+/*   position: relative;
+    top: 50px;
+    left: 50px;
+    
+      position: fixed;
+    top: 0px;
+    right: 0px;
+*/
+
+
+
+#box1{
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 50px;
+    text-align: center;
+    background-color: darkgoldenrod;
+
+  
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#box2{
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 20px;
+    text-align: right;
+    background-color: lightcyan;
+
+    margin: 50px;
+}
+    /*
+    if you want to change margin seperately you can use margin-top left etc */
+
+    #box5{
+        
+        width: 250px;
+        height: 250px;
+        font-size: 225px;
+        text-align:center;
+        background-color:red;
+
+        /*
+        animation: mySlide;
+        animation-play-state: running;
+        animation-iteration-count: infinite;
+        animation-delay: 1s;
+        animation-timing-function: ease-out;
+        animation-duration: 5s;
+
+        it can also conbine with pseudo-class
+        #box5 actived:  animation: 3s linear 0s infinite running mySlide;
+
+        */
+
+        animation: 3s linear 0s infinite running mySlide;
+
+    }
+
+    @keyframes mySlide{
+        from{margin-left: 100%;}
+        to{margin-left: 0%;}
+
+    }
+
+    #box6{
+        
+        width: 250px;
+        height: 250px;
+        font-size: 225px;
+        text-align:center;
+        background-color:blue;
+
+        animation: 3s linear 0s infinite running myRotate;
+
+    }
+
+    @keyframes myRotate{
+       /* 100%{transform: rotateX(360deg)}
+        100%{transform: rotateY(360deg)}*/
+        100%{transform: rotateZ(360deg)}
+    }
+
+    #box7{
+        
+        width: 250px;
+        height: 250px;
+        font-size: 225px;
+        text-align:center;
+        background-color:rgb(92, 169, 220);
+
+        animation: 3s linear 0s infinite running myOpacity;
+
+    }
+
+    @keyframes myOpacity{
+        50%{opacity: 0;}
+    }
+
+    #box8{
+        
+        width: 250px;
+        height: 250px;
+        font-size: 225px;
+        text-align:center;
+        background-color:rgb(212, 97, 40);
+
+        animation: 3s linear 0s infinite running myScale;
+
+    }
+
+    @keyframes myScale{
+        50%{transform: scale(0.5,0.5);}
+    }
+
+    #box9{
+        
+        width: 250px;
+        height: 250px;
+        font-size: 225px;
+        text-align:center;
+        background-color:rgb(231, 30, 80);
+
+        animation: 3s linear 0s infinite running myColorChange;
+
+    }
+
+    @keyframes myColorChange{
+        0%{background-color:rgb(231, 30, 80)}
+        20%{background-color: coral;}
+        40%{background-color: yellowgreen;}
+        60%{background-color: rgb(34, 152, 34);}
+        80%{background-color: rgb(70, 136, 212);}
+        100%{background-color: palevioletred}
+    }
